@@ -1,0 +1,458 @@
+﻿body
+{
+    margin: 25px auto 25px auto;
+    font-family: Verdana, Sans-Serif;
+    color: #b8b8b8;
+    font-size: 11px;
+    background: #333333;
+}
+
+a
+{
+    color: #c9c9c9;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a:hover
+{
+    color: #b8b8b8;
+    text-decoration: none;
+}
+
+#outer_div
+{
+    width: 100%;
+    text-align: center;
+}
+
+#outer_table
+{
+    margin: 0 auto 0 auto;
+    background: #414141;
+    border: solid 2px #4b4b4b;
+    padding: 15px;
+    max-width: 940px;
+}
+
+#blank_outer_table
+{
+    padding: 15px;
+    margin: 0 auto 0 auto;
+}
+
+.options_area
+{
+    width: 100%;
+    background: #4b4b4b;
+    padding: 10px;
+    text-align: left;
+}
+.options_area td
+{
+    vertical-align: top;
+}
+
+
+.options_area .inner_options_area td.ioa_cell
+{
+    vertical-align: bottom;
+    padding: 0 10px 0 10px;
+}
+
+.Divider
+{
+    width: 100%;
+    display: block;
+    border-bottom: solid 2px #4b4b4b;
+}
+
+.OptionsDivider
+{
+    width: 100%;
+    display: block;
+    border-bottom: solid 2px #414141;
+}
+
+.LoginStatusStyle
+{
+    background: #414141;
+    padding: 10px;
+    margin: 10px 25px 0 10px;
+    font-size: 10px;
+    text-align: left;
+    width: 150px;
+    float: right;
+}
+
+h1
+{
+    display: block;
+    text-align: left;
+    padding: 0 0 10px 25px;
+    margin: 0;
+    border-bottom: solid 3px #5ddaec;
+    font-size: 40px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #f44375;
+}
+
+h2
+{
+    text-align: right;
+    font-weight: bold;
+    padding: 10px 25px 0 0;
+    margin: 0 0 25px 0;
+    color: #ecd65d;
+    font-style: italic;
+    font-size: 22px;
+    font-variant: small-caps;
+}
+
+h3
+{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14px;
+    color: #5ddaec;
+    padding: 0;
+    margin: 0;
+}
+
+.GVStyle
+{
+    border: solid 2px #222222;
+    background: #373737;
+    max-width: 900px;
+}
+
+.GVHeaderStyle, .GVPagerStyle
+{
+    padding: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    background: #222222;
+    color: #5ddaec;
+}
+.GVHeaderStyle a, .GVPagerStyle a
+{
+    color: #5ddaec;
+    text-decoration: none;
+}
+.GVHeaderStyle a:hover, .GVTaskHeaderStyle a:hover, .GVPagerStyle a:hover, .GVCompleteHeaderStyle a:hover, .GVInProgressHeaderStyle a:hover
+{
+    text-decoration: underline;
+}
+
+.GVTaskHeaderStyle, .GVTaskHeaderStyle a
+{
+    color: #ecd65d;
+    text-decoration: none;
+}
+
+.GVCompleteHeaderStyle, .GVCompleteHeaderStyle a
+{
+    color: #a0ec5d !important;
+    text-decoration: none;
+}
+
+.GVInProgressHeaderStyle, .GVInProgressHeaderStyle a
+{
+    color: #f7ff6a !important;
+    text-decoration: none;
+}
+
+.GVButtonItemStyle
+{
+    background: #c74268;
+    display: block;
+    height: 100%;
+    padding: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: left;
+}
+.GVButtonItemStyle a
+{
+    text-decoration: none;
+    display: block;
+    color: #ffe2ea;
+}
+.GVButtonItemStyle a:hover, .GVButtonItemStyle:hover
+{
+    background: #f44375;
+    color: #ffffff;
+}
+
+.GVItemStyle
+{
+    background: #373737;
+    padding: 5px;
+    margin: 0;
+    font-size: 10px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.GVCompleteItemStyle
+{
+    background: #516441;
+    color: #a0ec5d;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0;
+    font-size: 10px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.GVInProgressItemStyle
+{
+    color: #f7ff6a;
+    background: #676944;
+    padding: 5px;
+    margin: 0;
+    font-size: 10px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.GVWaitingItemStyle
+{
+    color: #5ddaec;
+    background: #416064;
+    padding: 5px;
+    margin: 0;
+    font-size: 10px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.IndicatorStyle
+{
+    padding: 10px;
+    display: block;
+    background: #373737;
+    font-style: italic;
+    text-align: center;
+}
+
+.StatStyle
+{
+    max-width: 900px;
+    text-align: right;
+    padding: 5px 0 0 0;
+}
+
+.TotalCompleteStyle
+{
+    color: #a0ec5d;
+    font-weight: bold;
+}
+.TotalItemStyle
+{
+    color: #5ddaec;
+    font-weight: bold;
+}
+
+.RBListStyle
+{
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+
+.RBListStyle td
+{
+    text-align: right;
+    display: table-cell;
+    width: 80px;
+    padding: 2px;
+}
+.RBListStyle input
+{
+    width: 100%;
+}
+
+.StatusTable
+{
+    padding: 0;
+}
+
+.StatusTable td
+{
+    width: 75px;
+}
+
+.InputStyle
+{
+    font-family: Verdana, Sans-Serif;
+    font-size: 11px;
+    color: #ecd65d;
+    font-weight: bold;
+    border: solid 1px #222222;
+    background: #333333;
+}
+
+
+.ButtonStyle
+{
+    font-family: Verdana, Sans-Serif;
+    font-weight: bold;
+    font-size: 11px;
+    color: #ffe2ea;
+    background: #c74268;
+    border: solid 2px #f44375;
+}
+
+.FormViewTbl
+{
+    width: 100%;
+}
+.FormViewTbl td
+{
+    vertical-align: top;
+}
+
+.FormViewLbl
+{
+    color: #ecd65d;
+    font-weight: bold;
+}
+
+.PrintPnlStyle
+{
+    background: #414141;
+    padding: 10px;
+    font-size: 10px;
+    width: 250px;
+}
+
+.ModalStyle
+{
+    background: #333333;
+    border: solid 2px #222222;
+    color: #b8b8b8;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.ModalStyle h3
+{
+    text-align: center;
+}
+
+.ModalInputStyle
+{
+    font-family: Verdana, Sans-Serif;
+    font-size: 11px;
+    color: #ecd65d;
+    font-weight: bold;
+    border: solid 1px #222222;
+    background: #4b4b4b;
+}
+
+.ModalDivider
+{
+    width: 100%;
+    display: block;
+    border-bottom: solid 2px #222222;
+}
+
+.modal_options_area
+{
+    width: 100%;
+    background: #2a2a2a;
+    padding: 10px;
+    text-align: left;
+}
+.modal_options_area td
+{
+    vertical-align: top;
+}
+
+.PromptStyle
+{
+    font-weight: normal;
+    font-style: italic;
+}
+
+.ToolTipStyle
+{
+    font-size: 9px;
+    font-weight: normal;
+    padding: 5px;
+    background: #ecd65d;
+    border: solid 2px #222222;
+    color: #5a5223;
+    width: 200px;
+}
+
+.ValidatorCalloutStyle
+{
+    background-color: #9c3c3c;
+}
+
+.ValidatorCalloutStyle div, .ValidatorCalloutStyle td
+{
+    background-color: #9c3c3c;
+    border: solid 1px #f24343;
+    font-size: 10px;
+    padding: 3px 0 3px 0;
+    color: #f24343;
+}
+
+.Footer
+{
+    text-align: center;
+    border-top: solid 3px #5ddaec;
+    margin: 25px 0 25px 0;
+    padding: 15px 0 0 0;
+}
+
+/*** Calendar Extender styling. 
+    I am overriding the following pre-defined classes in order to customize this control ***/ 
+
+.ajax__calendar_body, .ajax__calendar_container, .ajax__calendar_days, .ajax__calendar_other, ajax__calendar
+{
+    background: transparent;
+}
+.ajax__calendar_container
+{
+	padding: 0;
+}
+
+.ajax__calendar_day
+{
+    color: #ffe2ea;
+    background: #c74268;
+    border: solid 1px #f44375 !important;
+}
+
+.ajax__calendar_other .ajax__calendar_day
+{
+	border: none !important;
+}
+
+.ajax__calendar_hover *
+{
+	color: #ecd65d !important;
+}
+.ajax__calendar_hover .ajax__calendar_day
+{
+	background: #f44375 !important;
+}
+
+.ajax__calendar_dayname
+{
+    font-weight: bold;
+    color: #222222;
+}
+
+.ajax__calendar_header, .ajax__calendar_footer, .ajax__calendar_today
+{
+    background: #373737;
+    color: #5ddaec;
+    font-weight: bold;
+    vertical-align: middle;
+}
